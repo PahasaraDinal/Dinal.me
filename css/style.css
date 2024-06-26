@@ -8430,7 +8430,7 @@ h1, h2, h3, h4, h5,
       .owl-carousel .owl-dots .owl-dot.active {
         background: #b3b3b3; }
   .owl-carousel.home-slider {
-    position: absolute;
+    position: relative;
     height: 750px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
