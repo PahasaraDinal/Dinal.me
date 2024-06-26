@@ -46,8 +46,10 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block; }
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {   
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 body {
   margin: 0;
