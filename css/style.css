@@ -16,6 +16,8 @@
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
+  --black: #040404;
+  --black-100:#ffffff;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #007bff;
@@ -74,7 +76,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  color: var(--black); }
 
 abbr[title],
 abbr[data-original-title] {
@@ -6624,7 +6627,8 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4 {
-  margin-top: 1.5rem !important; }
+  margin-top: 1.5rem !important;
+color: var(--black-100);}
 
 .mr-4,
 .mx-4 {
